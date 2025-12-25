@@ -44,3 +44,15 @@
 #     print("Invalid input")
 # print("Thank you for using the calculator")
 
+# Possword Generator
+# import random
+# letters="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+# numbers="0123456789"
+# symbols="!@#$%^&*()_+"
+# print("Welcome to the password generator!")
+# password=""
+# password_length=int(input("Enter the length of the password: "))
+# for i in range(password_length):
+#     group=random.choice([letters,numbers,symbols])
+#     password+=random.choice(group)
+# print(f"Generated password is: {password}")
