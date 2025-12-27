@@ -55,4 +55,57 @@
 # print(dis)
 
 #Anagram Checker
-Input="listen", "silent"
+# s1="listen"
+# s2="silent"
+# if len(s1)!=len(s2):
+#     print("Not Anagrams")
+# else:
+#     if sorted(s1)==sorted(s2):
+#         print("Anagrams!")
+#     else:
+#         print("Not Anagrams")
+
+# Longest Word in a Sentence
+# sentence = "Python makes coding enjoyable"
+# current = ""
+# longest = ""
+
+# for ch in sentence:
+#     if ch != " ":
+#         current += ch
+#     else:
+#         if len(current) > len(longest):
+#             longest = current
+#         current = ""
+
+# # check the last word
+# if len(current) > len(longest):
+#     longest = current
+
+# print(longest)
+
+# Remove Duplicate Words
+# Input="This is is  a test test"
+# Output=""
+# for i in Input.split():
+#     if i not in Output:
+#         Output+=i+' '
+# print(Output)
+
+# Capitalize First Letter of Each Word
+# Input="python is fun"
+# Output=""
+# for i in Input.split():
+#     Output+=i.capitalize()+' '
+# print(Output)
+
+# check Pangram
+# Input="The quick brown fox jumps over the lazy dog"
+# alphabets="abcdefghijklmnopqrstuvwxyz"
+# for ch in alphabets:
+#     if ch not in Input.lower():
+#         print(False)
+#         break
+# else:
+#     print(True)
+

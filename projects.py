@@ -56,3 +56,15 @@
 #     group=random.choice([letters,numbers,symbols])
 #     password+=random.choice(group)
 # print(f"Generated password is: {password}")
+
+# Rock Paper Scissors Game
+import random
+print("Welcome to Rock, Paper, Scissors Game!")
+choices=["rock","paper","scissors"]
+user_score=0
+computer_score=0
+for i in range(5):
+    print(f"\nRound {i+1}")
+    user=input("Enter rock, paper or scissors: ").lower()
+    computer=random.choice(choices)
+    print(f"Compputer choice: {computer}")
