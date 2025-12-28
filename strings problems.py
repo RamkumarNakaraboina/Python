@@ -109,3 +109,58 @@
 # else:
 #     print(True)
 
+# Covert to Title Case Without .title()
+# Input="welcome to python"
+# Output=""
+# for i in Input.split():
+#     Output+=i[0].upper()+i[1:].lower()+' '
+# print(Output)
+
+# Remove Special characters
+# Input="Hello@2025!!"
+# Output=""
+# special_characters="!@#$%^&*()_+"
+# for ch in Input:
+#     if ch not in special_characters:
+#         Output+=ch
+# print(Output)
+
+# Find Common Characters Between Two Strings
+# s1="python"
+# s2="typhoon"
+# Output=""
+# for ch in s1:
+#     if ch in s2 and ch not in Output:
+#         Output+=ch
+# print(Output)
+
+# Count Digits, Alphabets, and Symbols
+# Input="Python3.9!"
+# alphabets='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+# digits='123456789'
+# symbols="!@#$%^&*()_+."
+# Alphabets=0
+# Digits=0
+# Symbols=0
+# for ch in Input:
+#     if ch in alphabets:
+#         Alphabets+=1
+#     elif ch in digits:
+#         Digits+=1
+#     elif ch in symbols:
+#         Symbols+=1
+# Output=f"Alphabets={Alphabets}, Digits={Digits}, Symbols={Symbols}"
+# print(Output)
+
+# Replace All Spaces with Hyphens
+Input="Python is great"
+Output=""
+for ch in Input:
+    if ch == " ":
+        Output+="-"
+    else:
+        Output+=ch
+print(Output)
+# Input="Python is great"
+# Output=Input.replace(" ","-")
+# print(Output)
