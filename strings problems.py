@@ -209,10 +209,20 @@
 # print(Output)
 
 # approach 2
-Input="Python programming is powerful"
-letter="p"
-Output=[]
-for ch in Input.split():
-    if ch[0].lower()==letter:
-        Output.append(ch)
+# Input="Python programming is powerful"
+# letter="p"
+# Output=[]
+# for ch in Input.split():
+#     if ch[0].lower()==letter:
+#         Output.append(ch)
+# print(Output)
+
+# Remove ALl Whitespaces
+Input="Python Rocks"
+Output=""
+for ch in Input:
+    if ch == " ":
+        continue
+    else:
+        Output+=ch
 print(Output)
