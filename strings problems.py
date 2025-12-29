@@ -153,14 +153,66 @@
 # print(Output)
 
 # Replace All Spaces with Hyphens
-Input="Python is great"
-Output=""
-for ch in Input:
-    if ch == " ":
-        Output+="-"
-    else:
-        Output+=ch
-print(Output)
+#approach 1
+# Input="Python is great"
+# Output=""
+# for ch in Input:
+#     if ch == " ":
+#         Output+="-"
+#     else:
+#         Output+=ch
+# print(Output)
+
+#approach 2
 # Input="Python is great"
 # Output=Input.replace(" ","-")
 # print(Output)
+
+# Convert Snake Case to Camel Case
+# Input="hello_world_python"
+# Output=""
+# i=0
+# while i<len(Input):
+#     if Input[i]=="_":
+#         Output+=Input[i+1].upper()
+#         i+=2
+#     else:
+#         Output+=Input[i]
+#         i+=1
+# print(Output)
+
+# Remove Duplicate Words
+# Input="This is is a test test"
+# Output=""
+# for i in Input.split():
+#     if i not in Output:
+#         Output+=i+' '
+# print(Output)
+
+# Check String Contains Only Digits
+# Input="12345"
+# Digits="0123456789"
+# for ch in Input:
+#     if ch not in Digits:
+#         print(False)
+#         break
+# else:
+#     print(True)
+
+# Find Words Starting with a Specific Letter
+# approach 1
+# Input="Python programming is powerful"
+# Output=[]
+# for i in Input.split():
+#     if i.startswith("p"):
+#         Output.append(i)
+# print(Output)
+
+# approach 2
+Input="Python programming is powerful"
+letter="p"
+Output=[]
+for ch in Input.split():
+    if ch[0].lower()==letter:
+        Output.append(ch)
+print(Output)
